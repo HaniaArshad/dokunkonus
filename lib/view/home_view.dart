@@ -200,7 +200,7 @@ class _HomeViewState extends State<HomeView> {
                               right: 20.h,
                             ),
                             child: GridView.builder(
-                              physics: const BouncingScrollPhysics(),
+                              physics: const BouncingScrollPhysics(),    
                               shrinkWrap: true,
                               gridDelegate:
                                   const SliverGridDelegateWithFixedCrossAxisCount(
